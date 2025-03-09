@@ -21,7 +21,7 @@
   },
 {
   "name": "💫歌星金曲MV💫",
-  "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/MTV.txt",
+  "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/M1.txt",
   "img": "https://api.horosama.com/random.php"
   },
   {
@@ -46,12 +46,12 @@
   },
   {
   "name": "🔕DJ音乐MV🔕",
-  "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/MTV4.txt",
+  "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/M2.txt",
   "img": "https://singlemouse.cn/api/img-moblie.php"
   },
   {
   "name": "🔊DJ-MV歌曲🔊",
-  "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/MTV2.txt",
+  "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/M3.txt",
   "img": "https://imgapi.jinghuashang.cn/random"
   }
 ]
