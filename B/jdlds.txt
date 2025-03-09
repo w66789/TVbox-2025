@@ -25,10 +25,10 @@
   },
   {
   "name": "🚦MTV🚥⚪️欣赏频道⚪️🚦",
-  "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/MTV%E6%AC%A3%E8%B5%8F.txt&&&http://img.xjh.me/random_img.php?cid=7"
+  "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/MTV%E6%AC%A3%E8%B5%8F.txt&&&http://img.xjh.me/random_img.php?cid=8"
   },
   {
   "name": "🔔DJ频道🔔",
-  "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/DJ%E9%A2%91%E9%81%93.txt&&&https://singlemouse.cn/api/img.php?cid=8"
+  "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/DJ%E9%A2%91%E9%81%93.txt&&&https://singlemouse.cn/api/img.php?cid=9"
   }
 ]
