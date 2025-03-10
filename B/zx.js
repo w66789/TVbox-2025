@@ -26,12 +26,12 @@ function convertM3uToNormal(m3u) {
         let result = '';
         let TV = '';
         // let flag='#genre#';
-        let flag = '#m3u#';
-        let currentGroupTitle = '';
+        let flag = '#mp4##m3u##m3u8##mkv#';
+        let currentGroupTitle ='测试 '';
         lines.forEach((line) => {
             if (line.startsWith('#EXTINF:')) {
                 line = line.replace(/'/g, '"');
-                let groupTitle = '未知频道';
+                let groupTitle = '';
                 let tvg_name = '';
                 let tvg_logo = '';
                 try {
