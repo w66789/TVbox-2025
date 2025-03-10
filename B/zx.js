@@ -26,7 +26,7 @@ function convertM3uToNormal(m3u) {
         let result = '';
         let TV = '';
         // let flag='#genre#';
-        let flag = '#mp4#m3u#m3u8#mkv#';
+        let flag = '#m3u#';
         let currentGroupTitle = '';
         lines.forEach((line) => {
             if (line.startsWith('#EXTINF:')) {
@@ -34,6 +34,9 @@ function convertM3uToNormal(m3u) {
                 let groupTitle = '';
                 let tvg_name = '';
                 let tvg_logo = '';
+                let msg = '📢公告：欢迎使用📢 本自制接口仓特别 🐧🐧QQ：666666666                                       🌐公告：欢迎使用🌐 本自制接口仓特别 🐧🐧QQ：666666666
+          🟡公告：欢迎使用🟡   本自制接口仓特别 🐧🐧 QQ：666666666
+          🔴公告：欢迎使用🔴   本自制接口仓特别 🐧🐧QQ：666666666'';
                 try {
                     groupTitle = line.match(/group-title="(.*?)"/)[1].trim();
                 } catch (e) {
