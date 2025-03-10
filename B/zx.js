@@ -178,7 +178,7 @@ var rule = {
     url: 'fyclass#pg=fypage&t=fyfilter',
     filter_url: '{{fl.show}}',
     headers: {'User-Agent': 'MOBILE_UA'},
-    timeout: 1, // class_name: '电影&电视剧&综艺&动漫',
+    timeout: 0, // class_name: '电影&电视剧&综艺&动漫',
     limit: 0,
     search_limit: 0, // 搜索限制取前5个，可以注释掉，就不限制搜索
     searchable: 1,//是否启用全局搜索,
