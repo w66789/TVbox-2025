@@ -222,9 +222,13 @@ var rule = {
                     type_name: it.name,
                     type_id: it.url,
                     img: it.img,
-                };
+                  };
                 _classes.push(_obj);
                 let json1 = [{'n': '多线路分组', 'v': 'groups'}, {'n': '单线路', 'v': 'all'}];
+                try {
+                    rule.filter[_obj.type_id] = [
+                        {'key': 'show', 'name': '播放展示', 'value': json1}
+                    ];
                     if (json1.length > 0) {
                         rule.filter_def[it.url] = {"show": json1[0].v};
                     }
