@@ -182,7 +182,7 @@ var rule = {
     limit: 0,
     search_limit: 0, // 搜索限制取前5个，可以注释掉，就不限制搜索
     searchable: 1,//是否启用全局搜索,
-    quickSearch: 1,//是否启用快速搜索,
+    quickSearch: 0,//是否启用快速搜索,
     filterable: 1,//是否启用分类筛选,
     play_parse: true,
     // params: 'http://127.0.0.1:5707/files/json/live2cms.json',
