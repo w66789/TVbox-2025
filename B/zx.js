@@ -26,7 +26,7 @@ function convertM3uToNormal(m3u) {
         let result = '';
         let TV = '';
         // let flag='#genre#';
-        let flag = '';
+        let flag =' #avi#3gp#3g2#avi#asf#cpk#div#dv#divx#dat#dirac#fli#flc#flv#f4v#vob#m3u#m3u8#mp4#m4v#mov#mpg#mpeg#mpe#ts#mkv#mod#m2ts#rm#rmvb#ram#wmv#webm#qt#lavf#ogv#url#'';
         let currentGroupTitle = '';
         lines.forEach((line) => {
             if (line.startsWith('#EXTINF:')) {
