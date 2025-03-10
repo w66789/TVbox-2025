@@ -224,7 +224,7 @@ var rule = {
                     img: it.img,
                 };
                 _classes.push(_obj);
-                let json1 = [{'n': '多线路分组', 'v': 'all'}, {'n': '单线路', 'v': 'all'}];
+                let json1 = [{'n': '多线路分组', 'v': 'groups'}, {'n': '单线路', 'v': 'all'}];
                 try {
                     rule.filter[_obj.type_id] = [
                         {'key': 'show', 'name': '播放展示', 'value': json1}
