@@ -196,7 +196,7 @@ var rule = {
         // 初始化保存的数据
         rule.showMode = getItem('showMode', 'groups');
         rule.groupDict = JSON.parse(getItem('groupDict', '{}'));
-        rule.tips = `📺m3u8源直播转点播📺${rule.version}`;
+        rule.tips = `${rule.version}`;
 
         if (typeof (batchFetch) === 'function') {
             // 支持批量请求直接放飞自我。搜索限制最大线程数量16
@@ -225,10 +225,6 @@ var rule = {
                 };
                 _classes.push(_obj);
                 let json1 = [{'n': '多线路分组', 'v': 'groups'}, {'n': '单线路', 'v': 'all'}];
-                try {
-                    rule.filter[_obj.type_id] = [
-                        {'key': 'show', 'name': '播放展示', 'value': json1}
-                    ];
                     if (json1.length > 0) {
                         rule.filter_def[it.url] = {"show": json1[0].v};
                     }
