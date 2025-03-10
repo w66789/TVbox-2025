@@ -25,7 +25,7 @@
   "img": "https://api.uuz.bid/random/"
   },
   {
-  "name": "💫歌星金曲MV💫",
+  "name": "💫歌星💫",
   "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/MTV.txt",
   "img": "https://api.uuz.bid/random/"
   },
@@ -55,7 +55,7 @@
   "img": "https://singlemouse.cn/api/img-moblie.php/"
   },
   {
-  "name": "🔊DJ-MV歌曲🔊",
+  "name": "🔊DJ在线🔊",
   "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/MTV2.txt",
   "img": "https://www.loliapi.com/acg/pe/"
   }
