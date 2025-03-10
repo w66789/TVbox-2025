@@ -17,15 +17,13 @@
     },
         {"key":"jdlds","name":"🔳经典老电视🔳","type":3,"api":"https://my9.ltd/tv/js/zbzdb.js","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/B/jdlds.txt"},
           {
-            "key": "在线",
+            "key": "zx",
             "name": "📀经典老电视📀",
             "type": 3,
             "api": "http://47.108.190.141/hipy/drpy_libs/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0,
-            "order_num": 0,
-            "changeable":1,
+            "filterable": 1,
             "ext": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/B/zx.js?type=url&params=https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/B/zx.txt"
         },
         {"key":"JD经典","name":"📺经典老电视点播📺","type":3,"style":{"type":"rect","ratio":1.485},"style":{"type":"oval"},"api":"https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/B/jd.js","searchable":1,"changeable":1,"ext":"https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/B/JD.json"},
@@ -1794,7 +1792,7 @@
             "url": "https://codeberg.org/w1111/1/raw/branch/main/A/TV2.txt",
             "ua": "okhttp/3.15"
         },
-        {"name": "📀天微MTV📀","type": 0,"url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt","playerType": 2,"ua": "okhttp/5.0.0-alpha.14","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
+        {"name": "📀点歌MTV📀","type": 0,"url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/MTV%E9%9F%B3%E4%B9%90%E7%82%B9%E6%AD%8C%E5%90%88%E9%9B%86.txt","playerType": 2,"ua": "okhttp/5.0.0-alpha.14","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
     ],
     "flags": [
         "youku",
