@@ -36,8 +36,8 @@
   },
   {
   "name": "🏮MTV频道🏮",
-  "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/MTV%E9%A2%91%E9%81%93.txt",
-  "img": "http://img.xjh.me/random_img.php"
+  "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/MTV频道.txt",
+  "img": "https://api.likepoems.com/img/bing/"
   },
   {
   "name": "🚦MTV🚥⚪️欣赏频道⚪️🚦",
