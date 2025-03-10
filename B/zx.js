@@ -178,23 +178,23 @@ var rule = {
     url: 'fyclass#pg=fypage&t=fyfilter',
     filter_url: '{{fl.show}}',
     headers: {'User-Agent': 'MOBILE_UA'},
-    timeout: 0, // class_name: '电影&电视剧&综艺&动漫',
+    timeout: 1, // class_name: '电影&电视剧&综艺&动漫',
     limit: 0,
     search_limit: 0, // 搜索限制取前5个，可以注释掉，就不限制搜索
     searchable: 1,//是否启用全局搜索,
-    quickSearch: 0,//是否启用快速搜索,
+    quickSearch: 1,//是否启用快速搜索,
     filterable: 1,//是否启用分类筛选,
     play_parse: true,
     // params: 'http://127.0.0.1:5707/files/json/live2cms.json',
     // 下面自定义一些源的配置
     // def_pic: 'https://avatars.githubusercontent.com/u/97389433?s=120&v=4', //默认列表图片
     def_pic: 'https://api.uuz.bid/random/', //默认列表图片
-    showMode: 'all',// all按组分类显示 all全部一条线路展示
+    showMode: 'groups',// groups按组分类显示 all全部一条线路展示
     groupDict: {},// 搜索分组字典
     tips: '', //二级提示信息
     预处理: $js.toString(() => {
         // 初始化保存的数据
-        rule.showMode = getItem('showMode', 'all');
+        rule.showMode = getItem('showMode', 'groups');
         rule.groupDict = JSON.parse(getItem('groupDict', '{}'));
         rule.tips = `📺m3u8源直播转点播📺${rule.version}`;
 
@@ -224,7 +224,11 @@ var rule = {
                     img: it.img,
                 };
                 _classes.push(_obj);
-                let json1 = [{'n': '多线路分组', 'v': 'all'}, {'n': '单线路', 'v': 'all'}];
+                let json1 = [{'n': '多线路分组', 'v': 'groups'}, {'n': '单线路', 'v': 'all'}];
+                try {
+                    rule.filter[_obj.type_id] = [
+                        {'key': 'show', 'name': '播放展示', 'value': json1}
+                    ];
                     if (json1.length > 0) {
                         rule.filter_def[it.url] = {"show": json1[0].v};
                     }
@@ -394,17 +398,17 @@ var rule = {
                     let vod_play_url;
                     let vod_play_from;
 
-                    if (rule.showMode === 'all') {
-                        let all = splitArray(_list, x => x.split('$')[0]);
+                    if (rule.showMode === 'groups') {
+                        let groups = splitArray(_list, x => x.split('$')[0]);
                         let tabs = [];
-                        for (let i = 0; i < all.length; i++) {
+                        for (let i = 0; i < groups.length; i++) {
                             if (i === 0) {
                                 tabs.push(vod_name + '@1');
                             } else {
                                 tabs.push(`@${i + 1}`);
                             }
                         }
-                        vod_play_url = all.map(it => it.join('#')).join('$$$');
+                        vod_play_url = groups.map(it => it.join('#')).join('$$$');
                         vod_play_from = tabs.join('$$$');
                     } else {
                         vod_play_url = _list.join('#');
