@@ -31,7 +31,7 @@ function convertM3uToNormal(m3u) {
         lines.forEach((line) => {
             if (line.startsWith('#EXTINF:')) {
                 line = line.replace(/'/g, '"');
-                let groupTitle = '';
+                let groupTitle = '未知频道';
                 let tvg_name = '';
                 let tvg_logo = '';
                 try {
