@@ -184,7 +184,7 @@ var rule = {
     searchable: 1,//是否启用全局搜索,
     quickSearch: 1,//是否启用快速搜索,
     filterable: 0,//是否启用分类筛选,
-    play_parse: false,
+    play_parse: true,
     // params: 'http://127.0.0.1:5707/files/json/live2cms.json',
     // 下面自定义一些源的配置
     // def_pic: 'https://avatars.githubusercontent.com/u/97389433?s=120&v=4', //默认列表图片
@@ -225,10 +225,6 @@ var rule = {
                 };
                 _classes.push(_obj);
                 let json1 = [{'n': '多线路分组', 'v': 'all'}, {'n': '单线路', 'v': 'all'}];
-                try {
-                    rule.filter[_obj.type_id] = [
-                        {'key': 'show', 'name': '播放展示', 'value': json1}
-                    ];
                     if (json1.length > 0) {
                         rule.filter_def[it.url] = {"show": json1[0].v};
                     }
