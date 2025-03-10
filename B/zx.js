@@ -178,13 +178,13 @@ var rule = {
     url: 'fyclass#pg=fypage&t=fyfilter',
     filter_url: '{{fl.show}}',
     headers: {'User-Agent': 'MOBILE_UA'},
-    timeout: 0, // class_name: '电影&电视剧&综艺&动漫',
+    timeout: 1, // class_name: '电影&电视剧&综艺&动漫',
     limit: 0,
     search_limit: 0, // 搜索限制取前5个，可以注释掉，就不限制搜索
     searchable: 1,//是否启用全局搜索,
-    quickSearch: 0,//是否启用快速搜索,
-    filterable: 1,//是否启用分类筛选,
-    play_parse: true,
+    quickSearch: 1,//是否启用快速搜索,
+    filterable: 0,//是否启用分类筛选,
+    play_parse: false,
     // params: 'http://127.0.0.1:5707/files/json/live2cms.json',
     // 下面自定义一些源的配置
     // def_pic: 'https://avatars.githubusercontent.com/u/97389433?s=120&v=4', //默认列表图片
@@ -224,7 +224,7 @@ var rule = {
                     img: it.img,
                 };
                 _classes.push(_obj);
-                let json1 = [{'n': '多线路分组', 'v': 'groups'}, {'n': '单线路', 'v': 'all'}];
+                let json1 = [{'n': '多线路分组', 'v': 'all'}, {'n': '单线路', 'v': 'all'}];
                 try {
                     rule.filter[_obj.type_id] = [
                         {'key': 'show', 'name': '播放展示', 'value': json1}
@@ -313,8 +313,8 @@ var rule = {
             let arr = html.match(/.*?[,，]#[\s\S].*?#/g); // 可能存在中文逗号
             try {
                 arr.forEach(it => {
-                    let vname = it.split(/[,，]/)[0];
-                    let vtab = it.match(/#(.*?)#/)[0];
+                    let vname = it.split(/[,，]/)[1];
+                    let vtab = it.match(/#(.*?)#/)[1];
                     VODS.push({
                         // vod_name:it.split(',')[0],
                         vod_name: vname,
@@ -347,12 +347,12 @@ var rule = {
                 let _tab = orId.split('$')[1];
                 if (orId.includes('#search#')) {
                     let vod_name = _tab.replace('#search#', '');
-                    let vod_play_from = '来自搜索';
+                    let vod_play_from = '';
                     vod_play_from += `:${_get_url}`;
                     let vod_play_url = rule.groupDict[_get_url].map(x => x.replace(',', '$')).join('#');
                     log(orId);
                     VOD = {
-                        vod_name: '搜索:' + vod_name,
+                        vod_name: ':' + vod_name,
                         type_name: "🇨🇳国产视频合集🇨🇳",
                         vod_pic: rule.def_pic,
                         // vod_content: orId,
