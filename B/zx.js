@@ -26,7 +26,7 @@ function convertM3uToNormal(m3u) {
         let result = '';
         let TV = '';
         // let flag='#genre#';
-        let flag ='#avi#3gp#3g2#avi#asf#cpk#div#dv#divx#dat#dirac#fli#flc#flv#f4v#vob#m3u#m3u8#mp4#m4v#mov#mpg#mpeg#mpe#ts#mkv#mod#m2ts#rm#rmvb#ram#wmv#webm#qt#lavf#ogv#url#';
+        let flag = '#m3u#';
         let currentGroupTitle = '';
         lines.forEach((line) => {
             if (line.startsWith('#EXTINF:')) {
@@ -178,11 +178,11 @@ var rule = {
     url: 'fyclass#pg=fypage&t=fyfilter',
     filter_url: '{{fl.show}}',
     headers: {'User-Agent': 'MOBILE_UA'},
-    timeout: 1, // class_name: '电影&电视剧&综艺&动漫',
+    timeout: 0, // class_name: '电影&电视剧&综艺&动漫',
     limit: 0,
     search_limit: 0, // 搜索限制取前5个，可以注释掉，就不限制搜索
     searchable: 1,//是否启用全局搜索,
-    quickSearch: 1,//是否启用快速搜索,
+    quickSearch: 0,//是否启用快速搜索,
     filterable: 1,//是否启用分类筛选,
     play_parse: true,
     // params: 'http://127.0.0.1:5707/files/json/live2cms.json',
