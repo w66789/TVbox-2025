@@ -26,7 +26,7 @@ function convertM3uToNormal(m3u) {
         let result = '';
         let TV = '';
         // let flag='#genre#';
-        let flag = '#mp4#m3u#';
+        let flag = '';
         let currentGroupTitle = '';
         lines.forEach((line) => {
             if (line.startsWith('#EXTINF:')) {
