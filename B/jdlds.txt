@@ -12,6 +12,10 @@
         "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/hzgg.txt&&&https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/jpg-png/1.jpg?cid=3"
     },
     {
+        "name": "📽电影轮播📽",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/电影轮播.txt&&&https://深色壁纸.xxooo.cf/?cid=10"
+    },
+    {
     "name": "📀点歌音乐视频165页📀",
     "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/MTV%E9%9F%B3%E4%B9%90%E7%82%B9%E6%AD%8C%E5%90%88%E9%9B%86.txt&&&https://api.uuz.bid/random/?cid=4"
   },
