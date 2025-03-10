@@ -31,12 +31,9 @@ function convertM3uToNormal(m3u) {
         lines.forEach((line) => {
             if (line.startsWith('#EXTINF:')) {
                 line = line.replace(/'/g, '"');
-                let groupTitle = '';
+                let groupTitle = '未知频道';
                 let tvg_name = '';
                 let tvg_logo = '';
-                let msg = '📢公告：欢迎使用📢 本自制接口仓特别 🐧🐧QQ：666666666                                       🌐公告：欢迎使用🌐 本自制接口仓特别 🐧🐧QQ：666666666
-          🟡公告：欢迎使用🟡   本自制接口仓特别 🐧🐧 QQ：666666666
-          🔴公告：欢迎使用🔴   本自制接口仓特别 🐧🐧QQ：666666666'';
                 try {
                     groupTitle = line.match(/group-title="(.*?)"/)[1].trim();
                 } catch (e) {
