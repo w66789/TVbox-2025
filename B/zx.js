@@ -167,8 +167,8 @@ globalThis.getRandomItem = function (items) {//从列表随机取出一个元素
 }
 globalThis.__ext = {data_dict: {}};
 var rule = {
-    title: '💻m3u8视频链接资源💻｜',
-    author: '☯️道长☯️',
+    title: 'm3u8视频链接资源｜',
+    author: '道长',
     version: '网络作者',
     update_info: `影视资源接口｜软件｜Max宝盒-521影视-影迷-宝全影院
 `,
@@ -184,7 +184,7 @@ var rule = {
     searchable: 1,//是否启用全局搜索,
     quickSearch: 1,//是否启用快速搜索,
     filterable: 1,//是否启用分类筛选,
-    play_parse: false,
+    play_parse: true,
     // params: 'http://127.0.0.1:5707/files/json/live2cms.json',
     // 下面自定义一些源的配置
     // def_pic: 'https://avatars.githubusercontent.com/u/97389433?s=120&v=4', //默认列表图片
