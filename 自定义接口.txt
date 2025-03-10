@@ -2,9 +2,19 @@
   "drives": [{"server":"http://192.168.3.4:9080/dav","userName":"hewei","password":"2730006208","type":"webdav"}],
   "spider": "http://110.42.41.38:888/lib/pg.jar",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
-  "warningText":" 蜗牛影视 提示:📢接口软件永远免费 📢长期维护切勿贩卖",
   "logo":"https://gd-hbimg.huaban.com/ca8b4e7379e601bca6eb21c33c1994e59e991b481ec6c7-RbvXmL_fw658",
   "sites": [
+        {
+      "key": "豆瓣",
+      "name": "豆瓣推荐",
+      "type": 3,
+      "api": "csp_Douban",
+      "jar": "https://tv.xn--11x555b.top/4K/jar/xhpmd.jar",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/wnkj.json"
+    },
         {"key":"jdlds","name":"🔳经典老电视🔳","type":3,"api":"https://my9.ltd/tv/js/zbzdb.js","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/B/jdlds.txt"},
           {
             "key": "在线",
