@@ -37,12 +37,12 @@
   {
   "name": "🏮MTV频道🏮",
   "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/MTV%E9%A2%91%E9%81%93.txt",
-  "img": "https://www.5k5b.com/img/index.php/"
+  "img": "http://img.xjh.me/random_img.php"
   },
   {
   "name": "🚦MTV🚥⚪️欣赏频道⚪️🚦",
   "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/MTV%E6%AC%A3%E8%B5%8F.txt",
-  "img": "https://img.xjh.me/random_img.php/"
+  "img": "http://74.120.175.78/JK/api/bg/"
   },
   {
   "name": "🔔DJ频道🔔",
@@ -57,6 +57,6 @@
   {
   "name": "🔊DJ-MV歌曲🔊",
   "url": "https://ghfast.top/https://raw.githubusercontent.com/w66789/TVbox-2025/refs/heads/main/A/MTV2.txt",
-  "img": "https://imgapi.jinghuashang.cn/random/"
+  "img": "https://www.loliapi.com/acg/pe/"
   }
 ]
